@@ -12,11 +12,13 @@ int main() {
     int average = 0;
 
     
-    while (input > -1)
+    while (input != -1)
     {
+        printf("Enter a number: ");
         scanf("%d", &input);
         total += input;
         amount++;
+
     }
 
     average = total / amount;
